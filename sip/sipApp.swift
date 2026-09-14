@@ -4,13 +4,11 @@
 //
 //  Created by Arajen Kajanthirabalan on 2026-09-13.
 //
-
 import SwiftUI
-
 @main
 struct sipApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra("Sip", systemImage: "drop.fill") {
             ContentView()
         }
     }
